@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.addBlog {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+
+    .blogTitle {
+        font-size: 24px;
+    }
+
+    .add {
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: auto;
+        --radius: 20px;
+        font-size: 14px;
+    }
+
+    .dark {
+        background-color: black;
+
+        &::placeholder {
+            color: #e7eaed;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.confirmAlert {
+    width: 390px;
+    height: 200px;
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 10px;
+
+    .subHeading {
+        margin: 10px 0 30px;
+        font-size: 14px;
+    }
+
+    .heading,
+    .subHeading {
+        margin-left: 5px;
+    }
+
+    .yes,
+    .no {
+        width: 150px;
+        height: 40px;
+        --radius: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .no {
+        justify-self: right;
+        background-color: rgb(145, 245, 246);
+        color: black;
+    }
+
+    .yes {
+        background-color: $primaryColor;
+        margin-left: 10px;
+    }
+
+    .actionWrapper {
+        width: 310px;
+        margin: auto;
+    }
+}

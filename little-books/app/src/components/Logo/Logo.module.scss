@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.logo {
+    margin: 15px auto 0;
+    font-size: 28px;
+
+    .titleLeft,
+    .titleRight {
+        font-family: $secondaryFont;
+    }
+
+    .titleLeft {
+        color: $primaryColor;
+        font-weight: 300;
+    }
+}

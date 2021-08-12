@@ -1,0 +1,28 @@
+@import './variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primaryFont;
+    overflow: auto;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+html,
+body,
+#root,
+.App {
+    height: 100%;
+}
+
+.react-confirm-alert-overlay {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    animation: none;
+    opacity: 1;
+}

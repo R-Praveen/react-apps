@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.button {
+    background: $primaryColor;
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    outline: none;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}

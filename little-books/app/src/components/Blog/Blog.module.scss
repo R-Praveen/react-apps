@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.blog {
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+    .title {
+        font-family: $secondaryFont;
+        font-weight: 500;
+    }
+
+    .type {
+        margin: 10px 0;
+        font-size: 12px;
+        font-weight: 500;
+        color: $primaryColor;
+    }
+
+    .details {
+        display: -webkit-box;
+        text-align: justify;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+        font-weight: 300;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.selected {
+    background-color: rgb(167, 224, 242);
+}

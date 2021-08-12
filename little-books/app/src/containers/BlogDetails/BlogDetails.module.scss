@@ -1,0 +1,80 @@
+@import '../../styles/variables';
+
+.blogDetails {
+    width: 60%;
+    height: 100%;
+    padding: 50px;
+
+    .blogPoster {
+        overflow: hidden;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .blogPoster,
+    .blogPoster img {
+        height: 400px;
+    }
+
+    .editForm {
+        height: calc(100% - 460px);
+        min-height: 340px;
+        margin: 20px 0 10px;
+
+        .title,
+        .details {
+            width: 100%;
+        }
+
+        .title {
+            font-family: $secondaryFont;
+            font-size: 32px;
+            font-weight: 500;
+        }
+
+        .details {
+            margin-top: 10px;
+            line-height: 0.6cm;
+            font-size: 15px;
+            font-weight: 300;
+            text-align: justify;
+        }
+    }
+
+    .actionWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        .save,
+        .editOrCancel {
+            width: 120px;
+            height: 30px;
+            --radius: 15px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .editOrCancel {
+            justify-self: right;
+            background-color: rgb(145, 245, 246);
+            color: black;
+        }
+
+        .save {
+            background-color: $primaryColor;
+            margin-left: 10px;
+        }
+    }
+
+    .dark {
+        background-color: #021d2e;
+
+        &::placeholder {
+            color: #e7eaed;
+        }
+    }
+}
