@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+.page {
+  height: calc(100% - 60px);
+  margin-top: 60px;
+  background-color: $backgroundColor;
+
+  .title {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+  }
+}

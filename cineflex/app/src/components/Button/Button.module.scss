@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.button {
+  background: $primaryGradient;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}

@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.menu {
+  width: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+
+  .menuItem {
+    list-style: none;
+    padding: 7px 25px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .selected {
+      color: $secondaryColor;
+    }
+  }
+}

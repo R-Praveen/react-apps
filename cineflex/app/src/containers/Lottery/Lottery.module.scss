@@ -1,0 +1,69 @@
+@import "../../styles/variables";
+
+.lottery {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  padding: 18px;
+  background: $primaryGradient;
+  color: white;
+
+  .label {
+    display: inline-block;
+    padding: 8px 0;
+    font-size: 24px;
+  }
+
+  .lotteryResponse {
+    padding: 4px 0;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .phoneNumber {
+    position: relative;
+
+    .content {
+      display: inline-block;
+      margin: 0 20px;
+
+      input {
+        width: 350px;
+        padding: 4px 20px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      input::placeholder,
+      input {
+        color: rgb(170, 170, 170);
+      }
+
+      input::placeholder {
+        font-size: 12px;
+      }
+    }
+
+    .error {
+      position: absolute;
+      margin-top: 0;
+      right: 40px;
+      top: 15px;
+      color: red;
+      font-size: 11px;
+      font-weight: 500;
+      z-index: 10;
+    }
+  }
+
+  .lotteryButton {
+    padding: 10px 35px;
+    background: rgb(191, 40, 40);
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,13 @@
+.login {
+  position: relative;
+
+  .cover {
+    height: calc(100vh - 60px);
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="container languageList"
+>
+  <div
+    className="heading heading"
+  >
+    View in Other Languages
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="language"
+    >
+      E
+    </div>
+    <div
+      className="language"
+    >
+      த
+    </div>
+    <div
+      className="language"
+    >
+      త
+    </div>
+    <div
+      className="language"
+    >
+      മ
+    </div>
+    <div
+      className="language"
+    >
+      ह
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,54 @@
+@import "../../styles/variables";
+
+.trailer {
+  .subHeading {
+    margin-bottom: 20px;
+    font-size: 12px;
+
+    a {
+      color: $secondaryColor;
+      text-decoration: none;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+
+    .poster {
+      width: calc(40% - 50px);
+      height: 290px;
+      overflow: hidden;
+
+      img {
+        width: 570px;
+        height: 400px;
+      }
+    }
+
+    .trailerDesc {
+      width: 50%;
+      margin-left: 50px;
+      height: 250px;
+
+      .title {
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        width: 90%;
+        font-size: 14px;
+        line-height: 0.5cm;
+      }
+
+      .watchNowButton {
+        margin-top: 30px;
+        padding: 11px 30px 10px;
+        font-size: 16px;
+        background: $primaryGradient;
+      }
+    }
+  }
+}

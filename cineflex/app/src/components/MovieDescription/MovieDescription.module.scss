@@ -1,0 +1,79 @@
+@import "../../styles/variables";
+
+.movieDescription {
+  width: calc(50% - 90px);
+  height: 755px;
+  margin-left: 90px;
+  padding-top: 30px;
+  color: white;
+
+  .contentWrapper {
+    position: relative;
+  }
+
+  .adBanner {
+    width: 90%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .adBanner,
+  .adBanner img {
+    height: 695px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .content {
+    height: 625px;
+    overflow: scroll;
+  }
+
+  .likeCount {
+    margin-top: 10px;
+    color: $tertiaryColor;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .like {
+    top: 30px;
+    right: 0;
+    padding: 12px 14px 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+
+  .poster {
+    margin-top: 25px;
+
+    img {
+      width: 180px;
+      height: 220px;
+    }
+  }
+
+  .description {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 0.6cm;
+  }
+
+  .actors {
+    .actorsTitle {
+      margin: 22px 0 30px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    li {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+  }
+}

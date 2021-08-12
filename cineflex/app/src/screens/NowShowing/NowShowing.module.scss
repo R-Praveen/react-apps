@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.nowShowing {
+  padding: 30px calc((100% - 1100px) / 2);
+
+  .title {
+    color: $secondaryColor;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .videoDisplay {
+    video {
+      width: 1100px;
+      height: 620px;
+    }
+  }
+}

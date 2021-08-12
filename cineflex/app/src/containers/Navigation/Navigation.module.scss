@@ -1,0 +1,40 @@
+.navigation {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 35px;
+  background-color: black;
+
+  .logo {
+    padding: 4px 0;
+
+    img {
+      width: 150px;
+      height: 23px;
+    }
+  }
+
+  .userInfo {
+    padding: 7px 0 5px;
+    color: white;
+
+    a {
+      text-decoration: none;
+    }
+
+    a,
+    button {
+      color: white;
+      font-size: 16px;
+    }
+
+    button {
+      margin-left: 5px;
+      background: transparent;
+    }
+  }
+}
