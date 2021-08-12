@@ -1,0 +1,62 @@
+@import "./_variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body,
+#root,
+.app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.btn {
+    background: $primaryColor;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.primary-btn {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+}
+
+.ui.cards>.ui.card,
+.ui.card {
+    box-shadow: none !important;
+
+    .content {
+        background-color: white;
+    }
+}
+
+.line-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

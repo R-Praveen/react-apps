@@ -1,0 +1,26 @@
+.home {
+  .container {
+    height: 100%;
+    margin: 0 100px;
+    padding: 30px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .container-left {
+      width: calc(70% - 10px);
+    }
+
+    .search,
+    .city-promotion,
+    .plan-my-trip,
+    .available-flights {
+      margin-bottom: 20px;
+    }
+
+    .container-right {
+      width: calc(30% - 10px);
+    }
+  }
+}

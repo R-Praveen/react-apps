@@ -1,0 +1,17 @@
+@import "./_variables.scss";
+
+.c-header {
+    background-color: $primaryColor;
+
+    .wrapper {
+        height: 100px;
+        width: 128px;
+        margin: 0 auto;
+        padding: 35px;
+
+
+        img {
+            height: 30px;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@import "_variables.scss";
+
+.shopping-list {
+    .ui.cards {
+        margin-right: 0;
+        margin-left: 0;
+
+        >.ui.card {
+            width: calc((100% - 72px) / 4);
+            min-width: 236px;
+            margin-left: 12px;
+            margin-right: 12px;
+
+            img {
+                height: 290px;
+            }
+
+            .content {
+                height: 145px;
+            }
+        }
+
+        >.ui.card:nth-child(4n+1) {
+            margin-left: 0;
+        }
+
+        >.ui.card:nth-child(4n) {
+            margin-right: 0;
+        }
+    }
+
+
+
+
+    .bottom-wrapper {
+        width: calc(100% - 28px);
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .item-meta-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .price {
+            font-weight: bold;
+        }
+
+        .size {
+            font-weight: 300;
+        }
+    }
+
+    .button-wrapper {
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+
+        .left .btn {
+            background: $tertiaryColor !important;
+        }
+
+        .right .btn {
+            background: $primaryColor !important;
+        }
+
+        .btn {
+            margin-right: 0;
+            padding: 10px 20px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+}

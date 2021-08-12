@@ -1,0 +1,33 @@
+.features {
+    .ui.cards {
+        margin-left: 0;
+        margin-right: 0;
+
+        >.ui.card {
+            width: calc((100% - 72px)/4);
+            margin: 12px;
+            box-shadow: none;
+        }
+
+        >.ui.card:first-child {
+            margin-left: 0;
+        }
+
+        >.ui.card:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .ui.card {
+        .content {
+            padding: 30px !important;
+            padding-top: 105px !important;
+            text-align: center;
+        }
+
+        .header,
+        .description {
+            font-family: "Roboto Condensed", sans-serif !important;
+        }
+    }
+}

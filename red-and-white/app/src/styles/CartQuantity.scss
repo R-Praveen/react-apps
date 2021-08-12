@@ -1,0 +1,20 @@
+@import "./_variables.scss";
+
+.cart-quantity {
+    position: absolute;
+    right: 10px;
+
+    .ui.buttons {
+        >.ui.button {
+            padding: 6px;
+
+            i {
+                font-size: 10px;
+            }
+        }
+
+        >.ui.button:disabled {
+            color: black;
+        }
+    }
+}

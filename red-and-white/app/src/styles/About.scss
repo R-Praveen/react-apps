@@ -1,0 +1,31 @@
+@import "./_variables.scss";
+
+.about {
+    height: 100%;
+    overflow-y: auto;
+    background-color: $secondaryColor;
+
+    .content-wrapper {
+        width: 1107px;
+        margin: auto;
+
+        .top-banner,
+        .button-wrapper {
+            margin-top: 30px;
+        }
+
+        .middle-banner {
+            margin-bottom: 18px;
+        }
+
+        .button-wrapper {
+            width: 262px;
+            margin: auto;
+            margin-top: 30px;
+
+            .primary-btn {
+                padding: 15px 100px;
+            }
+        }
+    }
+}

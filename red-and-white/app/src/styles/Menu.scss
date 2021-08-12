@@ -1,0 +1,47 @@
+@import "_variables.scss";
+
+.menu {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    background-color: $primaryColor;
+
+    .logo-wrapper {
+        padding: 35px;
+    }
+
+    .logo-wrapper img {
+        width: 150px;
+    }
+
+    .ui.secondary.menu {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 220px;
+        position: static;
+
+        .item {
+            margin-right: 0;
+            margin-left: 0;
+            padding-left: 50px;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:last-child>.item {
+            margin-top: 100px;
+        }
+
+        .active.item {
+            color: white;
+            background-color: rgb(115, 20, 22);
+        }
+
+        .active.item:hover {
+            color: white;
+            background-color: rgb(115, 20, 22);
+        }
+    }
+
+}

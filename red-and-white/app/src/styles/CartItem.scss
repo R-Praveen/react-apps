@@ -1,0 +1,63 @@
+@import "./_variables.scss";
+
+.cart-item-list {
+  margin-top: 15px;
+
+  > .ui.card {
+    width: 240px;
+    min-width: 240px;
+    position: relative;
+    background-color: rgb(234, 234, 234);
+
+    .content {
+      padding: 10px;
+
+      img {
+        width: 55px;
+        height: 70px;
+        margin-bottom: 0;
+        margin-right: 10px;
+      }
+
+      .header {
+        margin-top: 2px !important;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 300 !important;
+
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .price,
+      .header {
+        font-size: 12px !important;
+      }
+
+      .price {
+        font-weight: 600;
+        padding: 4px 0;
+      }
+
+      .price-quantity-wrapper {
+        display: flex;
+        justify-content: left;
+        margin-top: 10px;
+      }
+
+      .remove-btn {
+        cursor: pointer;
+        border: none;
+        color: $primaryColor;
+        font-size: 10px;
+        font-family: "IBM Plex Sans", sans-serif;
+      }
+
+      .button-wrapper {
+        position: absolute;
+        right: 10px;
+        bottom: 5px;
+      }
+    }
+  }
+}

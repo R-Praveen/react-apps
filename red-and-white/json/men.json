@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Van Heusen Men Black Shirt",
+        "image": "https://rukminim1.flixcart.com/image/714/857/jb3yp3k0/suit/y/g/h/44-5buttonblackcs-hangup-original-imafygu6u5ynhjba.jpeg?q=50",
+        "price": "$ 24.5"
+    },
+    {
+        "id": 2,
+        "name": "Branded Shirt for Men",
+        "image": "https://s3.ap-south-1.amazonaws.com/tcsonline-live/catalog/product/cache/afad95d7734d2fa6d0a8ba78597182b7/4/1/41311_1.jpg",
+        "price": "$ 45.2"
+    },
+    {
+        "id": 3,
+        "name": "Van Heusen Men Blue Self Design Slim Fit Two Piece Suit",
+        "image": "https: //assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/5464027/2018/4/24/11524564479286-Van-Heusen-Men-Blue-Self-Design-Slim-Fit-Two-Piece-Suit-3721524564479081-1.jpg",
+        "price": "$ 23"
+    },
+    {
+        "id": 4,
+        "name": "Mens Apollo Dress Shirt Dark Grey",
+        "image": "https: //www.datocms-assets.com/16284/1574959521-mos-mens-apollo-dress-shirt-dark-grey-8.jpg?q=50&auto=format&dpr=1&w=500&h=667&fit=crop",
+        "price": ""
+    },
+    {
+        "id": 5,
+        "name": "Traditional Arab Dress",
+        "image": "https://static.turbosquid.com/Preview/2016/04/05__18_23_21/TraditionalArabMenDressKandura3dmodel02.jpg96b2cb86-5871-4acd-aa00-a89a44db7a5bZoom.jpg",
+        "price": "$ 50.3"
+    },
+    {
+        "id": 6,
+        "name": "Navy Blue Men Designer Leisure Suit",
+        "image": "https://image.made-in-china.com/202f0j00wylQahBIEdku/Navy-Blue-Men-Designer-Leisure-Suit.jpg",
+        "price": "$ 23.4"
+    }
+]

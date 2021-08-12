@@ -1,0 +1,46 @@
+Client: Red & White
+
+Red & White is e-commerce shopping site which primarily focuses on dresses for MEN, WOMEN and KIDS only.
+
+#1
+On Load, the application must redirect to Shopping Page, with MEN selected.
+User should have the functionality to switch between WOMEN and KIDS section.
+
+domain.com/shop/men -> Navigate to MENS Section
+domain.com/shop/women -> Navigate to WOMEN Section
+domain.com/shop/kids -> Navigate to KIDS Section
+
+- When switching between MEN, WOMEN and KIDS - menu and cart should remain still.
+
+#2
+On Clicking About in the Menu, User must be redirected to ABOUT Page. 
+Images for About Menu are provided.
+Application Features should be consumed from the below given API.
+domain.com/about
+
+#3
+On Clicking Place Order in the Cart, User must be taken to PLACEHOLDER Page
+domain.com/confirmOrder
+
+#APIs
+
+1. To Fetch Products
+	http://nijinserver.herokuapp.com/dummy/shopping/shop/<category-id>
+
+    	Following are the category ids
+	men	
+	women
+	kids
+
+	Example
+	http://nijinserver.herokuapp.com/dummy/shopping/shop/men
+
+2. To Fetch Features
+	http://nijinserver.herokuapp.com/dummy/shopping/features
+
+
+Font Family - IBM Plex Sans (Google Font)
+
+
+Color code 
+Primary - #A50014

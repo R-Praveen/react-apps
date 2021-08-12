@@ -1,0 +1,29 @@
+.user-info-bar {
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+
+  .username {
+    padding: 10px 0;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .avatar > img {
+    width: 35px;
+    height: 35px;
+  }
+}
